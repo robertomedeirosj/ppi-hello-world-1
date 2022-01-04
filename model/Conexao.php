@@ -47,9 +47,9 @@ class Conexao{
     private static function getConexao(){
         try{
             $conexao = new PDO(
-                "mysql:host=localhost;dbname=ppi4m_infolanches",
-                "ppi4m",
-                "ppi41@ifrn"
+                "pgsql:host=ec2-3-227-154-49.compute-1.amazonaws.com;port=5432;dbname=df4od0bkf7g1eb",
+                "nyhrddadwdpqjy",
+                "2f27b3f97526773f6d15428a4dcb5be3c7df729393d46ddee550da5f3664888f"
             );
             $conexao->setAttribute(
                 PDO::ATTR_ERRMODE,

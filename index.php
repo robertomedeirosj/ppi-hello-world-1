@@ -8,5 +8,8 @@
 </head>
 <body>
     <h1>Marcelo Júnior</h1>
+    <?php
+    require_once "model/Conexao.php";
+    ?>
 </body>
 </html>
